@@ -1,0 +1,22 @@
+<nav style="margin-left:-8px; margin-right:-19px; margin-top:-8px;">
+	{% for item in site.data.navigation %}
+		{% if page.url == item.link%}
+			<div style="height:30px;float:left;width:33%;background-color:#B3B3B3;">
+				<center style="line-height: 30px;">
+				<a style="color:black;text-decoration:none" href="{{ item.link }}">
+				  {{ item.name }}
+				</a>
+				</center>
+			</div>
+		{%endif%}
+		{% if page.url != item.link%}
+			<div style="height:30px;float:left;width:33%; background-color:#666666;">
+				<center style="line-height: 30px;">
+				<a style="color:white;text-decoration:none" href="{{ item.link }}">
+				  {{ item.name }}
+				</a>
+				</center>
+			</div>
+		{%endif%}
+  {% endfor %}
+<nav>
