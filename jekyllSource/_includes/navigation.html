@@ -1,5 +1,23 @@
-<nav>
-	{% for item in site.data.navigation %}
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<a class="navbar-brand" href="/"></a>
+	
+	<ul class="navbar-nav">
+		{% for item in site.data.navigation %}
+			{% if page.url == item.link%}
+				<li class="nav-item">
+				  <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+				</li>
+			{%endif%}
+			{% if page.url != item.link%}
+				<li class="nav-item">
+				  <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+				</li>
+			{%endif%}
+		{% endfor %}
+	</ul>
+
+	
+	<!--{% for item in site.data.navigation %}
 		{% if page.url == item.link%}
 			<div style="height:30px;float:left;width:33.33%;background-color:#B3B3B3;">
 				<center style="line-height: 30px;">
@@ -18,5 +36,5 @@
 				</center>
 			</div>
 		{%endif%}
-  {% endfor %}
+  {% endfor %}-->
 <nav>
