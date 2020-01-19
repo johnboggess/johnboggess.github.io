@@ -1,15 +1,15 @@
-- name: Sample1
+- name: EyeCalc
   img: assets/catola.jpg
+  desc: Masters project.
+  link: https://gitlab.com/johnboggess/eyecalc/tree/master
+- name: BogieEngine
+  img: assets/BogieEngine.png
   desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  link: /projects.html
-- name: Sample2
-  img: assets/catola.jpg
-  desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  link: /projects.html
-- name: Sample3
-  img: assets/catola.jpg
-  desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  link: /projects.html
+  link: https://github.com/johnboggess/BogieEngine
+- name: Ray Tracing
+  img: assets/RayTracing.png
+  desc: Ray tracer built in unity based off of David Kuri's tutorial <a href = "http://blog.three-eyed-games.com/2018/05/03/gpu-ray-tracing-in-unity-part-1/">GPU Ray Tracing in Unity</a>.
+  link: https://github.com/johnboggess/RayTracing
 - name: Sample4
   img: assets/catola.jpg
   desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
