@@ -6,7 +6,9 @@ title: Projects
 {% for item in site.data.projects %}
 	<div style="clear:left;margin:10px;">
 		<h3 style="padding-top:50px">{{item.name}}</h3>
-		<img class="img-responsive" style="float:left;margin-right:5px;width:20%; height:20%;" src="{{item.img}}" alt="Sample"></img>
+		<a href="{{item.img}}">
+			<img class="img-responsive" style="float:left;margin-right:5px;width:20%; height:20%;" src="{{item.img}}"/>
+		</a>
 		<p>{{item.desc}}</p>
 		<a href="{{item.link}}">Link</a>
 	</div>
